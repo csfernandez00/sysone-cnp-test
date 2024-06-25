@@ -81,7 +81,7 @@ class MessageWidget {
 	createWidgetContent() {
 		this.widgetContainer.innerHTML = `
         <header class="widget__header">
-            <h3>Prueba 3</h3>
+            <h3>Prueba 4</h3>
             <p>We usually respond within a few hours</p>
         </header>
 
