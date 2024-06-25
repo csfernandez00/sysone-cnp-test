@@ -24,11 +24,11 @@ class MessageWidget {
 		/**
 		 * Create and append a div element to the document body
 		 */
-		const container = document.createElement("cnp-script");
-		container.style.position = "fixed";
-		Object.keys(this.position).forEach(
-			(key) => (container.style[key] = this.position[key])
-		);
+		const container = document.querySelector("#cnp-script");
+		// container.style.position = "fixed";
+		// Object.keys(this.position).forEach(
+		// 	(key) => (container.style[key] = this.position[key])
+		// );
 		document.body.appendChild(container);
 
 		/**
